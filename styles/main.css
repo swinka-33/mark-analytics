@@ -5,3 +5,65 @@ body {
     user-select: none;
     font-family: 'Roboto', sans-serif;
 }
+
+.Header {
+    height: 5vh;
+    padding: 5px;
+    background-color: rgb(39, 142, 211);
+    box-shadow: 0 3px 6px #858181;
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+}
+
+.Header__logo {
+    width: 4vh;
+    height: 4vh;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.Header__logo-img {
+    width: 4vh;
+    height: 4vh;
+}
+
+.Header__name {
+    text-align: right;
+    padding-right: 5vw;
+    padding-top: 0.5vh;
+    font-size: 24px;
+}
+
+.Menu {
+    height: 93.5vh;
+    width: 14vw;
+    margin-top: 0.25vh;
+    float: left;
+    background-color: #eeeeee;
+    box-shadow: 3px 0 6px #aaaaaa;
+}
+
+a {
+    outline: none;
+    color: #000000;
+    text-decoration: none;
+}
+
+.Menu__home,
+.Menu__statistic,
+.Menu__subject,
+.Menu__settings {
+    width: 12vw;
+    height: 5vh;
+    padding-top: 1.75vh;
+    font-size: 20px;
+    transition: all 0.2s ease;
+    padding-left: 2vw;
+}
+
+.Menu__home:hover,
+.Menu__statistic:hover,
+.Menu__subject:hover,
+.Menu__settings:hover {
+    background-color: #aaaaaa;
+}
