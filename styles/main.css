@@ -8,7 +8,7 @@ body {
 
 .Header {
     height: 5vh;
-    padding: 5px;
+    padding: 0.75vh;
     background-color: rgb(39, 142, 211);
     box-shadow: 0 3px 6px #858181;
     display: grid;
@@ -35,7 +35,7 @@ body {
 }
 
 .Menu {
-    height: 93.5vh;
+    height: 93.25vh;
     width: 14vw;
     margin-top: 0.25vh;
     float: left;
@@ -66,4 +66,25 @@ a {
 .Menu__subject:hover,
 .Menu__settings:hover {
     background-color: #aaaaaa;
+}
+
+.Home,
+.Statistic,
+.Subject,
+.Settings {
+    height: 93.25vh;
+    width: 85vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.div {
+    margin-top: 0.25vh;
+    margin-left: 1vw;
+    height: 93.25vh;
+    width: 85vw;
+    position: relative;
+    float: left;
 }

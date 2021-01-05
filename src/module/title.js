@@ -5,15 +5,13 @@
         title.innerHTML = value
     }
 
-    const titles = ['Home page', 'Statistic page', 'Subjects page', 'Settings page']
-
     const titleElement = document.getElementsByClassName('title')
 
-    changeTitle(titles[0])
+    changeTitle(TITLES[0])
 
-    for(let i = 0; i < titleElement.length; i++) {
+    for(let i = 0; i < TITLES.length; i++) {
         titleElement[i].addEventListener('click', () => {
-            changeTitle(titles[i])
+            changeTitle(TITLES[i])
         })
     }
 }   

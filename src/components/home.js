@@ -1,6 +1,6 @@
 class Home extends Component {
     render() {
-        return (`<div>
+        return (`<div class="Home" id="home">
             Home
         </div>`)
     }
