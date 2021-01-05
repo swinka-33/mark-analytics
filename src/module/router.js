@@ -1,5 +1,5 @@
 {
-    const routerElement = document.getElementsByClassName('router')
+    const routerElement = document.getElementsByClassName('router-js')
 
     for(let i = 0; i < ROUTER.length; i++) {
         routerElement[i].addEventListener('click', () => {

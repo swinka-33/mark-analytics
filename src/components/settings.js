@@ -1,6 +1,6 @@
 class Settings extends Component {
     render() {
-        return (`<div class="Settings"  id="settings">
+        return (`<div class="Settings none-js" id="settings">
             Settings
         </div>`)
     }

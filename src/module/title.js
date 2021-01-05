@@ -5,7 +5,7 @@
         title.innerHTML = value
     }
 
-    const titleElement = document.getElementsByClassName('title')
+    const titleElement = document.getElementsByClassName('title-js')
 
     changeTitle(TITLES[0])
 
