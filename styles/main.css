@@ -143,6 +143,7 @@ a {
     width: 30vw;
     height: 24vh;
     box-shadow: 0 0 10px #aaaaaa;
+    background-color: #fff;
     position: absolute;
     left: 30%;
     top: 10%;
