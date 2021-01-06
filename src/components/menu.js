@@ -7,6 +7,9 @@ class Menu extends Component {
             <a href="#/Statistic">
                 <div class="Menu__statistic title-js router-js">Statistic</div>
             </a>
+            <a href="#/NewSubject">
+                <div class="Menu__new-subject title-js router-js">New Subject</div>
+            </a>
             <a href="#/Subject">
                 <div class="Menu__subject title-js router-js">Subject</div>
             </a>

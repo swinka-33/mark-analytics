@@ -1,18 +1,11 @@
 class Subject {
     constructor(options) {
-        this.id = options.id
-        this.input = options.input
-    }
-
-    open() {
-        this.id.style.display = 'block'
-    }
-
-    close() {
-        this.id.style.display = 'none'
+        this.input = options.input,
+        this.comment = options.comment
     }
 
     clear() {
         this.input.value = '' 
+        this.comment.value = ''
     }
 }

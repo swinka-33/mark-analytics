@@ -6,6 +6,7 @@ class App extends Component {
             <div class="div">
                 ${home.render()}
                 ${statistic.render()}
+                ${newsubject.render()}
                 ${subject.render()}
                 ${settings.render()}
             </div>
