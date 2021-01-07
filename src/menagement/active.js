@@ -6,7 +6,8 @@ const subjectClass = new Subject({
 const subjectRout = new FastRouter({
     button: subjectPlus,
     index: 2,
-    arr: ROUTER
+    arr: ROUTER,
+    hash: '/NewSubject'
 })
 
 const subjectBannerClass = new Banner({

@@ -3,6 +3,7 @@ class FastRouter {
         this.button = options.button
         this.index = options.index
         this.arr = options.arr
+        this.hash = options.hash
     }
 
     rout() {
@@ -11,6 +12,7 @@ class FastRouter {
                 this.arr[i].style.display = 'none'
             }
             this.arr[this.index].style.display = 'block'
+            window.location.hash = this.hash
         })
     }
 }

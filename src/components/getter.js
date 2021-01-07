@@ -1,7 +1,9 @@
-const header = new Header
-const menu = new Menu
-const statistic = new Statistic
-const newsubject = new newSubjectPage
-const subject = new Subjects
-const home = new Home
-const settings = new Settings
+const GETTER = {
+    header : new Header,
+    menu : new Menu,
+    statistic : new Statistic,
+    newsubject : new newSubjectPage,
+    subject : new Subjects,
+    home : new Home,
+    settings : new Settings
+}
