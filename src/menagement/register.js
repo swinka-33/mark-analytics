@@ -6,12 +6,18 @@ const TITLES = [
     'Settings page'
 ]
 
-window.location.hash = '#/Home'
-
 const ROUTER = [
     document.getElementById('home'),
     document.getElementById('statistic'),
     document.getElementById('new-subjects'),
     document.getElementById('subjects'), 
     document.getElementById('settings')
+]
+
+const HASH = [
+    '/Home',
+    '/Statistic',
+    '/NewSubject',
+    '/Subject',
+    '/Settings'
 ]

@@ -14,14 +14,18 @@ const subjectBannerClass = new Banner({
     time: 3000
 })
 
+const newSubjectFun = new newSubject
+
 subjectCreate.addEventListener('click', () => {
-    const value = subjectInput.value
-    subjectContauner.innerHTML += newSubject(value)
-    subjectClass.clear()
-    subjectBannerClass.open()
-    setTimeout(() => {
-        subjectBannerClass.close()
-    }, subjectBannerClass.time)
+    if(subjectInput.value !== '') {
+        const value = subjectInput.value
+        subjectContauner.innerHTML += newSubjectFun.render(value)
+        subjectClass.clear()
+        subjectBannerClass.open()
+        setTimeout(() => {
+            subjectBannerClass.close()
+        }, subjectBannerClass.time)
+    }
 })
 
 subjectDelete.addEventListener('click', () => {
