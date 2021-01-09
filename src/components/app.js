@@ -6,6 +6,7 @@ class App extends Component {
             <div class="div">
                 ${GETTER.home.render()}
                 ${GETTER.statistic.render()}
+                ${GETTER.newmark.render()}
                 ${GETTER.newsubject.render()}
                 ${GETTER.subject.render()}
                 ${GETTER.settings.render()}
