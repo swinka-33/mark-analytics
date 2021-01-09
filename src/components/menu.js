@@ -8,9 +8,6 @@ class Menu extends Component {
                 <div class="Menu__statistic title-js router-js hash-js">Statistic</div>
             </a>
             <a>
-                <div class="Menu__mark title-js router-js hash-js">New Mark</div>
-            </a>
-            <a>
                 <div class="Menu__new-subject title-js router-js hash-js">New Subject</div>
             </a>
             <a>

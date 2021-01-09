@@ -8,4 +8,3 @@ const subjectDelete = document.getElementById('subject-delete')
 const subjectInput = document.getElementById('subject-plus-input')
 const subjectComment = document.getElementById('subject-comment-input')
 const subjectBanner = document.getElementById('subject-banner')
-const home = document.getElementsByClassName('Home__subjects')[0]

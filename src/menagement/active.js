@@ -5,7 +5,7 @@ const subjectClass = new Subject({
 
 const subjectRout = new FastRouter({
     button: subjectPlus,
-    index: 3,
+    index: 2,
     arr: ROUTER,
     hash: '/NewSubject'
 })
@@ -15,14 +15,12 @@ const subjectBannerClass = new Banner({
     time: 3000
 })
 
-const homeSubjectNew = new homeSubject
-
 const newSubjectFun = new newSubject
 
-subjectCreate.addEventListener('click', () => {
+// debugger;
+document.getElementById('subject-create').addEventListener('click', () => {
     if(subjectInput.value !== '') {
         const value = subjectInput.value
-        home.innerHTML += homeSubjectNew.render(value, `${value}`)
         subjectContauner.innerHTML += newSubjectFun.render(value)
         subjectClass.clear()
         subjectBannerClass.open()
