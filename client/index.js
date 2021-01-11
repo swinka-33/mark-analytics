@@ -4,4 +4,4 @@ const app = new App
 
 root.innerHTML = app.render()
 
-window.location.hash = '/Home'
+window.location.hash = '/'
